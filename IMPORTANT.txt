@@ -1,0 +1,15 @@
+!!! DOWNLOAD THE DRIVER HERE: https://chromedriver.storage.googleapis.com/index.html?path=2.45/
+
+In order for the script to work you must edit the script, and change 
+browser = webdriver.Chrome('/home/meme/Desktop/py/roblox/chromedriver')
+to:
+
+Linux: browser = webdriver.Chrome('PATH/TO/THIS/DIRECTORY/chromedriver')
+
+Windows: Don't use it but i assume its the same only with something like
+C:/path/to/dir.
+
+How to install requirements.txt:
+pip install -r requirements.txt
+
+Tested on Arch Linux with Python version: 2.7RC. 
